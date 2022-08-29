@@ -1,0 +1,36 @@
+.label {
+    // z-index: -1;
+}
+
+.box {
+    cursor: pointer;
+    z-index: 1;
+}
+
+.label {
+    padding: 20px 0;
+    opacity: 0.5;
+    color: rgba(255, 255, 255, );
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+
+.label::after {
+    content: '+';
+    position: absolute;
+    font-size: 20px;
+    right: 20px;
+    font-weight: 600;
+}
+
+.active .label::after {
+    content: '-'
+}
+
+.content {
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.3s;
+    padding-left: 20px;
+    cursor: text;
+}

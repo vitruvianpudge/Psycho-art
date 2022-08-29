@@ -1,0 +1,14 @@
+.sponsored {
+    margin-top: 150px;
+  }
+  
+  .sponsored .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sponsored-img {
+    &+& {
+      margin-left: 25px;
+    }
+  }

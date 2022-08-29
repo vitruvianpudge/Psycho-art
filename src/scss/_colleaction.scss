@@ -1,0 +1,45 @@
+.slider {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.colleaction {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.colleaction__gallery {}
+
+.colleaction__category {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.colleaction__category-btn {
+    max-width: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    height: 40px;
+    border-radius: 10px;
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+
+    &+& {
+        margin-left: 15px;
+    }
+}
+
+.colleaction__cards {
+    padding-top: 50px;
+}
+
+.cards__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: all 0.5s;
+}

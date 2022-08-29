@@ -1,0 +1,50 @@
+.creators {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-author {
+    padding: 0;
+
+    .card-img {
+        & img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: 300px;
+        }
+
+
+    }
+
+    .card__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+        padding: 0 26px 40px;
+    }
+
+    .card-author-img {
+        border-radius: 50%;
+        width: 111px;
+    }
+
+    .card-author-name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .card-author-text {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .card-btn {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .btn-primary {}
+}

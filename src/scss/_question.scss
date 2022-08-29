@@ -1,0 +1,13 @@
+.question {
+    margin: 200px 0;
+  }
+  
+  .accordion {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .accordion__block+.accordion__block {
+    margin-left: 15px;
+  }
+  
